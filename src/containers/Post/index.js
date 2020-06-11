@@ -1,9 +1,14 @@
 import React from 'react';
 import './style.css';
+import BlogPost from '../../components/blogPost';
+import Sidebar from '../../components/Sidebar';
 
 const Post = (props) => {
     return (
-        <div>Post</div>
+        <section className="container">
+            <BlogPost />
+            <Sidebar />
+        </section>
     );
 }
 export default Post;
