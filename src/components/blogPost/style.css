@@ -39,7 +39,7 @@
     max-width : 200%;
     max-height: 100%;
     display : block;
-    border : 3px solid black;
+    /* border : 3px solid black; */
 }
 
 .postContent {
