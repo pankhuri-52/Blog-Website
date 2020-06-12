@@ -6,7 +6,6 @@ import Layout from '../../components/Layout';
 const Home = props => {
     return (
         <div>
-           Home
            <Layout>
                     <RecentPosts style={{width: '70%'}}/>
             </Layout>
